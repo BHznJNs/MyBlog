@@ -1,0 +1,1 @@
+{"NM":"模块介绍","CTS":[{"NT":"h","CT":"Assert 模块介绍","CL":"#333"},{"NT":"p","CT":"稳定性：稳定(Stable)","CL":"#333"},{"NT":"p","CT":"源代码：``lib/assert.js``","CL":"#333"},{"NT":"link","HF":"https://github.com/nodejs/node/blob/v18.6.0/lib/assert.js","CT":"源代码网址","CL":"#333"},{"NT":"p","CT":"Assert 模块提供一系列用于校验不变量的 assert 函数","CL":"#333"}]}
