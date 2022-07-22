@@ -10,7 +10,7 @@ const defaultFile = fs.readFileSync(dcPath, "utf-8")
 const defaultContent = defaultFile.slice(15)
 const defaultContentObj = JSON.parse(defaultContent)
 
-// 若没有最近更新
+// 若有最近更新
 if (defaultContentObj.CTS.slice(-1)[0].comment == "latest") {
     defaultContentObj.CTS.pop()
 }
