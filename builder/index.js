@@ -10,7 +10,7 @@ const defaultFile = fs.readFileSync(dcPath, "utf-8")
 const defaultContent = defaultFile.slice(15)
 const defaultContentObj = JSON.parse(defaultContent)
 
-// 若有最近更新
+// 若没有最近更新
 if (defaultContentObj.CTS.slice(-1)[0].comment == "latest") {
     defaultContentObj.CTS.pop()
 }
@@ -26,7 +26,7 @@ const latestBlock = {
 }
 
 for (const item of latest) {
-    const itemPath = item.replace("../", "")
+	const itemPath = item.replace("../", "")
     const itemContent = fs.readFileSync(itemPath, "utf-8")
     const itemObj = JSON.parse(itemContent)
     const title = itemObj.CTS[0].CT
