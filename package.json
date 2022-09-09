@@ -1,7 +1,7 @@
 {
   "scripts": {
     "preview": "node preview.js",
-    "write": ". ./write-server/start-write.sh",
+    "write": ".\\write-server\\start-write.sh",
     "latest": "node ./builder/index.js"
   },
   "devDependencies": {
