@@ -79,7 +79,7 @@ function del(type, path, callback) {
                 latest.splice(latest.indexOf(path), 1)
             }
         } else { //            删除非空文件夹
-            fs.rmdirSync(path, { recursive: true })
+            fs.rmSync(path, { recursive: true })
         }
         callback(null)
     } catch(err) {
